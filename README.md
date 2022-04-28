@@ -1,1 +1,1 @@
-# IITK-CSE-Courses
+# IITK-Courses
