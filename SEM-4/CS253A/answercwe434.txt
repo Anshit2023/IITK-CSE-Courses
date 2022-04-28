@@ -1,0 +1,18 @@
+I select the CWE(434) Unrestricted Upload of File with Dangerous Type .
+
+The software allows the attacker to upload or transfer files of dangerous types that can be automatically processed within the product's environment.
+The "unrestricted file upload" term is used in vulnerability databases and elsewhere, but it is insufficiently precise.
+
+Language Used -  PHP
+
+Technologies - Web Server 
+
+Arbitrary code execution is possible if an uploaded file is interpreted and executed as code by the recipient. This is especially true for .asp and .php extensions uploaded to web servers because these file types are often treated as automatically executable, even when file system permissions do not specify execution. 
+
+
+Weekness 
+
+As I read though the sites , I get to know that this is a vulnerability but can easily be solved . Basically the vulnerability is that we have seen many websites to upload filesor submit our submissions like we have mookit on which we have to submit our solution scripts. So if these submissoion links offer us to submit PHP file then its a vulnerability and its very vulnerable situation for the admin as if we upload the PHP file then we have the access of 'ls' code for the storage site of admin means we can do 'ls' to admin's system and see the files stored which is not safe at all for any site.
+
+
+
